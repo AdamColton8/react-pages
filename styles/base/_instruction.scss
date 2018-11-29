@@ -1,0 +1,28 @@
+.wrap-instruction-text {
+  padding: 30px 15px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  .text-headline {
+    h4 {
+      color: dodgerblue;
+    }
+  }
+  .text-violet{
+    color: darkviolet;
+  }
+  .first-no{
+    span{
+      font-size: 18px;
+    }
+  }
+}
+.links-wrap{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  a{
+    padding: 1px 10px;
+    display: block;
+  }
+}

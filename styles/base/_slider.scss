@@ -1,0 +1,33 @@
+.prev-arrow, .next-arrow{
+  height: 44px;
+  width: 44px;
+  display: flex;
+  align-items: center;
+  background: #f2f2f2;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  outline: none;
+  padding: 0;
+  transition: background .2s ease;
+  &:hover{
+    background: #e5e5e5;
+  }
+}
+.prev-arrow{
+  .icon{
+    transform: rotate(180deg);
+    height: 1em;
+    width: .54em;
+  }
+}
+.next-arrow{
+  .icon{
+    height: 1em;
+    width: .54em;
+  }
+}
+.img-slider{
+
+}
